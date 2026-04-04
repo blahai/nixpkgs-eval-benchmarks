@@ -1,0 +1,34 @@
+{
+  "rev": {
+    "nixpkgs": "26.05.20260401.6201e20",
+    "nix": "2.35.0pre20260404_553fb35",
+    "lix": "2.96.0-devpre20260328-dev_d0190cf"
+  },
+  "specs": {
+    "cpu": " AMD Ryzen 7 7840HS w/ Radeon 780M Graphics",
+    "ram": {
+      "amount": "28GB",
+      "speed": "5600",
+      "type": "DDR5"
+    }
+  },
+  "times": {
+    "lix-293": 490.46,
+    "lix-294": 59.85,
+    "lix-295": 60.33,
+    "lix-git": 59.32,
+    "lix-latest": 60.33,
+    "lix-main": 64.81,
+    "lix-stable": 59.85,
+    "nix-228": 317.49,
+    "nix-230": 67.84,
+    "nix-231": 59.55,
+    "nix-232": 57.75,
+    "nix-233": 59.42,
+    "nix-234": 57.83,
+    "nix-git": 57.00,
+    "nix-latest": 57.83,
+    "nix-master": 53.67,
+    "nix-stable": 59.55
+  }
+}
