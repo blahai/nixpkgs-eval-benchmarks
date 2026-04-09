@@ -1,0 +1,34 @@
+{
+  "rev": {
+    "nixpkgs": "26.05.20260401.6201e20",
+    "nix": "2.35.0pre20260404_553fb35",
+    "lix": "2.96.0-devpre20260328-dev_d0190cf"
+  },
+  "specs": {
+    "cpu": " AMD Ryzen 9 9950X3D 16-Core Processor",
+    "ram": {
+      "amount": "31GB",
+      "speed": "6000",
+      "type": "DDR5"
+    }
+  },
+  "times": {
+    "lix-293": 50.14,
+    "lix-294": 34.68,
+    "lix-295": 35.24,
+    "lix-git": 35.32,
+    "lix-latest": 35.24,
+    "lix-main": 35.92,
+    "lix-stable": 34.68,
+    "nix-228": 111.35,
+    "nix-230": 41.78,
+    "nix-231": 34.18,
+    "nix-232": 35.12,
+    "nix-233": 35.43,
+    "nix-234": 34.43,
+    "nix-git": 34.51,
+    "nix-latest": 34.43,
+    "nix-master": 31.49,
+    "nix-stable": 34.18
+  }
+}
