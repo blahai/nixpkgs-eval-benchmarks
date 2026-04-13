@@ -1,0 +1,60 @@
+[package]
+name = "nixbench"
+version = "0.1.0"
+edition = "2024"
+homepage = "https://github.com/blahai/nixpkgs-eval-benchmarks"
+license = "EUPL-1.2"
+description = "nixpkgs eval benchmark tool"
+
+[dependencies]
+anyhow = { version = "1.0.102" }
+clap = { version = "4.6.0", features = ["derive"] }
+chrono = { version = "0.4.44" }
+tokio = { version = "1.51.1", features = ["full"] }
+futures = { version = "0.3.32" }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = { version = "1.0.149" }
+udev = { version = "0.9.3", features = ["send"] }
+thiserror = { version = "2.0.18" }
+semver = { version = "1.0.28" }
+inquire = { version = "0.9.4" }
+tracing = { version = "0.1.44" }
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+indicatif = { version = "0.18.4" }
+tracing-indicatif = { version = "0.3.14" }
+
+[lints.clippy]
+complexity = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+style = { level = "warn", priority = -1 }
+
+absolute_paths = "allow"
+arbitrary_source_item_ordering = "allow"
+enum_variant_names = "allow"
+implicit_return = "allow"
+missing_docs_in_private_items = "allow"
+non_ascii_literal = "allow"
+pattern_type_mismatch = "allow"
+print_stdout = "allow"
+question_mark_used = "allow"
+similar_names = "allow"
+single_call_fn = "allow"
+std_instead_of_core = "allow"
+too_long_first_doc_paragraph = "allow"
+too_many_lines = "allow"
+unused_trait_names = "allow"
+
+# yes I know these cause crashes, no idc here
+panic = "warn"
+unwrap_used = "warn"
+expect_used = "warn"
+todo = "warn"
+unimplemented = "warn"
+unreachable = "warn"
+
+[profile.release]
+lto = true
+opt-level = 3
+strip = true

@@ -1,0 +1,3 @@
+target
+# keep data dir for debugging but don't include debug data
+data/*

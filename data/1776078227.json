@@ -1,0 +1,306 @@
+{
+  "host_specs": {
+    "cpu": {
+      "vendor_id": "AuthenticAMD",
+      "physical_cpus": 12,
+      "cpu_cores": 6,
+      "max_freq_mhz": 5457.105,
+      "l3_cache_kb": 32768
+    },
+    "mem": {
+      "memory_type": "DDR5",
+      "speed_mts": 6000,
+      "num_modules": 4,
+      "total_size_bytes": 68719476736,
+      "form_factor": "DIMM",
+      "modules": [
+        {
+          "memory_type": "DDR5",
+          "form_factor": "DIMM",
+          "size_bytes": 17179869184,
+          "speed_mts": 6000
+        },
+        {
+          "memory_type": "DDR5",
+          "form_factor": "DIMM",
+          "size_bytes": 17179869184,
+          "speed_mts": 6000
+        },
+        {
+          "memory_type": "DDR5",
+          "form_factor": "DIMM",
+          "size_bytes": 17179869184,
+          "speed_mts": 6000
+        },
+        {
+          "memory_type": "DDR5",
+          "form_factor": "DIMM",
+          "size_bytes": 17179869184,
+          "speed_mts": 6000
+        }
+      ]
+    }
+  },
+  "misc": {
+    "nixpkgs_rev": "TODO",
+    "debug": false
+  },
+  "runs": [
+    {
+      "version": "nix-2.18",
+      "avg_time": {
+        "secs": 63,
+        "nanos": 90482126
+      },
+      "median_time": {
+        "secs": 63,
+        "nanos": 90482126
+      },
+      "run_times": [
+        {
+          "secs": 63,
+          "nanos": 90482126
+        }
+      ]
+    },
+    {
+      "version": "nix-2.19",
+      "avg_time": {
+        "secs": 63,
+        "nanos": 118706186
+      },
+      "median_time": {
+        "secs": 63,
+        "nanos": 118706186
+      },
+      "run_times": [
+        {
+          "secs": 63,
+          "nanos": 118706186
+        }
+      ]
+    },
+    {
+      "version": "nix-2.20",
+      "avg_time": {
+        "secs": 57,
+        "nanos": 230299785
+      },
+      "median_time": {
+        "secs": 57,
+        "nanos": 230299785
+      },
+      "run_times": [
+        {
+          "secs": 57,
+          "nanos": 230299785
+        }
+      ]
+    },
+    {
+      "version": "nix-2.21",
+      "avg_time": {
+        "secs": 226,
+        "nanos": 651589135
+      },
+      "median_time": {
+        "secs": 226,
+        "nanos": 651589135
+      },
+      "run_times": [
+        {
+          "secs": 226,
+          "nanos": 651589135
+        }
+      ]
+    },
+    {
+      "version": "nix-2.22",
+      "avg_time": {
+        "secs": 227,
+        "nanos": 445017551
+      },
+      "median_time": {
+        "secs": 227,
+        "nanos": 445017551
+      },
+      "run_times": [
+        {
+          "secs": 227,
+          "nanos": 445017551
+        }
+      ]
+    },
+    {
+      "version": "nix-2.23",
+      "avg_time": {
+        "secs": 214,
+        "nanos": 390846096
+      },
+      "median_time": {
+        "secs": 214,
+        "nanos": 390846096
+      },
+      "run_times": [
+        {
+          "secs": 214,
+          "nanos": 390846096
+        }
+      ]
+    },
+    {
+      "version": "nix-2.24",
+      "avg_time": {
+        "secs": 127,
+        "nanos": 247042937
+      },
+      "median_time": {
+        "secs": 127,
+        "nanos": 247042937
+      },
+      "run_times": [
+        {
+          "secs": 127,
+          "nanos": 247042937
+        }
+      ]
+    },
+    {
+      "version": "nix-2.25",
+      "avg_time": {
+        "secs": 128,
+        "nanos": 558867190
+      },
+      "median_time": {
+        "secs": 128,
+        "nanos": 558867190
+      },
+      "run_times": [
+        {
+          "secs": 128,
+          "nanos": 558867190
+        }
+      ]
+    },
+    {
+      "version": "nix-2.26",
+      "avg_time": {
+        "secs": 143,
+        "nanos": 313620148
+      },
+      "median_time": {
+        "secs": 143,
+        "nanos": 313620148
+      },
+      "run_times": [
+        {
+          "secs": 143,
+          "nanos": 313620148
+        }
+      ]
+    },
+    {
+      "version": "nix-2.27",
+      "avg_time": {
+        "secs": 134,
+        "nanos": 570054503
+      },
+      "median_time": {
+        "secs": 134,
+        "nanos": 570054503
+      },
+      "run_times": [
+        {
+          "secs": 134,
+          "nanos": 570054503
+        }
+      ]
+    },
+    {
+      "version": "nix-2.28",
+      "avg_time": {
+        "secs": 132,
+        "nanos": 124255224
+      },
+      "median_time": {
+        "secs": 132,
+        "nanos": 124255224
+      },
+      "run_times": [
+        {
+          "secs": 132,
+          "nanos": 124255224
+        }
+      ]
+    },
+    {
+      "version": "nix-2.30",
+      "avg_time": {
+        "secs": 51,
+        "nanos": 375145206
+      },
+      "median_time": {
+        "secs": 51,
+        "nanos": 375145206
+      },
+      "run_times": [
+        {
+          "secs": 51,
+          "nanos": 375145206
+        }
+      ]
+    },
+    {
+      "version": "nix-2.31",
+      "avg_time": {
+        "secs": 45,
+        "nanos": 843374035
+      },
+      "median_time": {
+        "secs": 45,
+        "nanos": 843374035
+      },
+      "run_times": [
+        {
+          "secs": 45,
+          "nanos": 843374035
+        }
+      ]
+    },
+    {
+      "version": "nix-2.34",
+      "avg_time": {
+        "secs": 45,
+        "nanos": 21707095
+      },
+      "median_time": {
+        "secs": 45,
+        "nanos": 21707095
+      },
+      "run_times": [
+        {
+          "secs": 45,
+          "nanos": 21707095
+        }
+      ]
+    },
+    {
+      "version": "nix-2.35",
+      "avg_time": {
+        "secs": 43,
+        "nanos": 217226451
+      },
+      "median_time": {
+        "secs": 43,
+        "nanos": 217226451
+      },
+      "run_times": [
+        {
+          "secs": 43,
+          "nanos": 217226451
+        }
+      ]
+    }
+  ]
+}
+
